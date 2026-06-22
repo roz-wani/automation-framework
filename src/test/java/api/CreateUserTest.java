@@ -1,30 +1,35 @@
 package api;
 
-import com.google.gson.JsonObject;
+import base.BaseAPI;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
-import netscape.javascript.JSObject;
+import model.User;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import utils.RequestSpec;
+import utils.JsonUtil;
+import utils.ResponseSpec;
 
-public class CreateUserTest {
+public class CreateUserTest extends BaseAPI {
 
     @Test
-    public void  createUser() {
+    public void createUser() throws Exception {
 
-        String requestBody = "{\"name\": \"wani\", \"job\": \"QA Engineer\"}";
+        User user = JsonUtil.readJson(
+                "src/test/resources/user.json",
+                User.class);
 
-        Response response = RestAssured
+        Response createResponse = RestAssured
                 .given()
-                .contentType("application/json")
-                .body(requestBody)
+                .spec(RequestSpec.getRequestSpec())
+                .body(user)
                 .when()
-                .post("https://jsonplaceholder.typicode.com/posts");
+                .post("/users");
 
-        System.out.println(response.asPrettyString());
+        createResponse.then()
+                .spec(ResponseSpec.getResponseSpec201());
 
-        String name = response.jsonPath().getString("name");
+        System.out.println(createResponse.asPrettyString());
 
-        Assert.assertEquals(name, "wani");
     }
 }

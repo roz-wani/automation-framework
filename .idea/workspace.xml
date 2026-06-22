@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a0265b4b-86df-433d-8adf-a1504e956f87" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/APIChainingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/DataProviderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/DataProviderUserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/GetAllUsersDeserializationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/GetSingleUserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/HeaderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/MultiUserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/model/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/model/UserResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPagePF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ui/ExtentReportTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ui/ExtentScreenshotTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ui/FirstSeleniumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ui/LocatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ui/LoginDataProviderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ui/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ui/POMLoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ui/PageFactoryLoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/JsonUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/RequestSpec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/ResponseSpec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/UserDataProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/XPathCssTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/schemas/user-schema.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/user.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/CreateUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/CreateUserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/DeleteUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/DeleteUserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/GetUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/GetUserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/UpdateUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/UpdateUserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LoginPageNG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LoginPageNG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LoginTestNG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LoginTestNG.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3CkbmXqTeFsCGSzcHNSp96ppTim" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.FirstTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LoginTest.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;TestNG.APIChainingTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/rozwani.zulkiflee/Music/firstproject/src/test/testing.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CreateUserTest.createUser.executor&quot;: &quot;Debug&quot;,
+    &quot;TestNG.CreateUserTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DataProviderTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DataProviderUserTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DeleteUserTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ExtentReportTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ExtentScreenshotTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.FirstSeleniumTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.GetAllUsersDeserializationTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.GetAllUsersLoopTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.GetAllUsersTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.GetSingleUserTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.GetUserTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.HeaderTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LocatorTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginDataProviderTest.executor&quot;: &quot;Debug&quot;,
+    &quot;TestNG.LoginTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginTestNG.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginTestNG.testLogin.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginTestNG.testValidLogin.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.MultiUserTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.POMLoginTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PageFactoryLoginTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestNG Suite.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Unnamed.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.UpdateUserTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.XPathCssTest.executor&quot;: &quot;Run&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/rozwani.zulkiflee/Music/firstproject/src/test/java/tests&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/rozwani.zulkiflee/Music/firstproject&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/rozwani.zulkiflee/Music/firstproject/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rozwani.zulkiflee\Music\firstprojec" />
+      <recent name="C:\Users\rozwani.zulkiflee\Music\firstproject\src" />
+      <recent name="C:\Users\rozwani.zulkiflee\Music\firstproject\src\main" />
+      <recent name="C:\Users\rozwani.zulkiflee\Music\firstproject\src\main\" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="tests" />
+      <recent name="" />
+      <recent name="pages" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.ExtentScreenshotTest">
+    <configuration name="ExtentReportTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="firstproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ui" />
+      <option name="MAIN_CLASS_NAME" value="ui.ExtentReportTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExtentScreenshotTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="firstproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ui" />
+      <option name="MAIN_CLASS_NAME" value="ui.ExtentScreenshotTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginDataProviderTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="firstproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ui" />
+      <option name="MAIN_CLASS_NAME" value="ui.LoginDataProviderTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="POMLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="firstproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ui" />
+      <option name="MAIN_CLASS_NAME" value="ui.POMLoginTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PageFactoryLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="firstproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ui" />
+      <option name="MAIN_CLASS_NAME" value="ui.PageFactoryLoginTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNG Suite" type="TestNG">
+      <module name="firstproject" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.ExtentReportTest" />
+      <item itemvalue="TestNG.ExtentScreenshotTest" />
+      <item itemvalue="TestNG.LoginDataProviderTest" />
+      <item itemvalue="TestNG.POMLoginTest" />
+      <item itemvalue="TestNG.PageFactoryLoginTest" />
+      <item itemvalue="TestNG.TestNG Suite" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.ExtentScreenshotTest" />
+        <item itemvalue="TestNG.ExtentReportTest" />
+        <item itemvalue="TestNG.LoginDataProviderTest" />
+        <item itemvalue="TestNG.PageFactoryLoginTest" />
+        <item itemvalue="TestNG.POMLoginTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.24374.151" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.24374.151" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a0265b4b-86df-433d-8adf-a1504e956f87" name="Changes" comment="" />
+      <created>1776932683433</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1776932683433</updated>
+      <workItem from="1776932684922" duration="5155000" />
+      <workItem from="1777013055297" duration="6191000" />
+      <workItem from="1777270216817" duration="11003000" />
+      <workItem from="1777334884980" duration="3370000" />
+      <workItem from="1777422385332" duration="6155000" />
+      <workItem from="1777453354132" duration="3737000" />
+      <workItem from="1777604649678" duration="15022000" />
+      <workItem from="1777953253727" duration="13995000" />
+      <workItem from="1777970180237" duration="87000" />
+      <workItem from="1777970371587" duration="4447000" />
+      <workItem from="1778030519013" duration="4207000" />
+      <workItem from="1778057644380" duration="3921000" />
+      <workItem from="1778117622375" duration="6199000" />
+      <workItem from="1778216469066" duration="5487000" />
+      <workItem from="1778460488383" duration="3835000" />
+      <workItem from="1778547914882" duration="3030000" />
+      <workItem from="1779268664293" duration="1830000" />
+      <workItem from="1779270519139" duration="4000" />
+      <workItem from="1779270590537" duration="406000" />
+      <workItem from="1779279061904" duration="7911000" />
+      <workItem from="1779330682816" duration="26000" />
+      <workItem from="1779330748656" duration="82000" />
+      <workItem from="1779330900024" duration="4522000" />
+      <workItem from="1779426155836" duration="27000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Merge branch 'main' of https://github.com/roz-wani/automation-framework" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

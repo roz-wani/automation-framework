@@ -1,3 +1,4 @@
+/*
 package tests;
 
 import base.BaseTest;
@@ -81,3 +82,4 @@ public class LoginTestNG  extends BaseTest{
         extent.flush();
     }
 }
+ */

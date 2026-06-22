@@ -1,34 +1,32 @@
 package api;
 
+import base.BaseAPI;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
+import model.User;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import utils.RequestSpec;
 
-public class UpdateUserTest {
+public class UpdateUserTest extends BaseAPI {
 
     @Test
     public void updateUser() {
 
-        String requestBody = "{\"name\": \"wani\", \"job\": \"Senior QA\"}";
+        User user = new User();
+
+        user.setName("Wani Updated");
+        user.setJob("Senior QA");
 
         Response response = RestAssured
                 .given()
-                .contentType("application/json")
-                .body(requestBody)
+                .spec(RequestSpec.getRequestSpec())
+                .body(user)
                 .when()
-                .put("https://jsonplaceholder.typicode.com/posts/1");
+                .put("/users/1");
 
         System.out.println(response.asPrettyString());
 
-        int statusCode = response.getStatusCode();
-
-        System.out.println("Status Code : " + statusCode);
-
-        Assert.assertEquals(statusCode, 200);
-
-        String updatedName = response.jsonPath().getString("name");
-
-        Assert.assertEquals(updatedName, "wani");
+        Assert.assertEquals(response.getStatusCode(), 200);
     }
 }

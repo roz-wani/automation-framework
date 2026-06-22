@@ -6,17 +6,18 @@ import io.restassured.response.Response;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class DeleteUserTest extends BaseAPI {
+public class HeaderTest extends BaseAPI {
 
     @Test
-    public void deleteUser() {
+    public void headerTest() {
 
         Response response = RestAssured
                 .given()
+                .header("Content Type", "application/json")
                 .when()
-                .delete("/users/1");
+                .get("/users/1");
 
-        System.out.println(response.getStatusCode());
+        System.out.println(response.asPrettyString());
 
         Assert.assertEquals(response.getStatusCode(), 200);
     }
