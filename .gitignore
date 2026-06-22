@@ -10,6 +10,10 @@ target/
 .idea/compiler.xml
 .idea/libraries/
 *.iws
+target
+.idea
+reports
+screenshots
 *.iml
 *.ipr
 
